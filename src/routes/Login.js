@@ -14,6 +14,8 @@ import { Redirect, Link } from "react-router-dom";
 export default class Login extends React.Component {
     state = {
         redirect: !!useAuthToken(),
+        username: "",
+        password: ""
     };
 
     handleChange = (event) => {

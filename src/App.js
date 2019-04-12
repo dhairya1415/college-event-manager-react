@@ -7,7 +7,6 @@ import MomentUtils from "@date-io/moment";
 import { MuiThemeProvider } from "@material-ui/core";
 import theme from "./theme";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
 import Navigation from "./components/Navigation";
 
 import Calendar from "./routes/Calendar";
